@@ -1,0 +1,2 @@
+/usr/bin/ar qc libkrpc_core.a CMakeFiles/krpc_core.dir/krpcConfig.cc.o
+/usr/bin/ranlib libkrpc_core.a
