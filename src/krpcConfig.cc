@@ -1,8 +1,6 @@
 #include "krpcConfig.h"
 #include <memory>
 
-#include "krpcConfig.h"
-#include <memory>
 
 // 加载配置文件，解析配置文件中的键值对，存入config_map
 void krpcConfig::LoadConfigFile(const char *config_file)
@@ -42,7 +40,6 @@ void krpcConfig::LoadConfigFile(const char *config_file)
         // 将键值对存入配置map
         config_map.insert({key, value});
     }
-
 
 }
 

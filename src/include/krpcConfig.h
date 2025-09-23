@@ -1,5 +1,5 @@
-#ifndef _krpcConfig_h
-#define _krpcConfig_h
+#ifndef KRPCCONFIG_H
+#define KRPCCONFIG_H
 
 #include <unordered_map>
 #include <string>
@@ -11,7 +11,7 @@ public:
     std::string Load(const std::string& key); // 查找key对应的value
 
 private:
-    std::unordered_map<std::string, std::string> config_map;
+    std::unordered_map<std::string, std::string> config_map; // TODO 存什么？？？
     
     void Trim(std::string& read_buf); // 去掉字符串前后的空格
 };
