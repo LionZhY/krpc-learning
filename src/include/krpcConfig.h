@@ -4,7 +4,7 @@
 #include <unordered_map>
 #include <string>
 
-class krpcConfig
+class KrpcConfig
 {
 public:
     void LoadConfigFile(const char* config_file); // 加载配置文件

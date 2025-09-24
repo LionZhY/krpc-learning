@@ -3,7 +3,7 @@
 
 
 // 加载配置文件，解析配置文件中的键值对，存入config_map
-void krpcConfig::LoadConfigFile(const char *config_file)
+void KrpcConfig::LoadConfigFile(const char *config_file)
 {
     // 使用智能指针管理文件指针，确保文件在退出时自动关闭
     std::unique_ptr<FILE, decltype(&fclose)> pf(fopen(config_file, "r"), // 打开配置森建
@@ -46,7 +46,7 @@ void krpcConfig::LoadConfigFile(const char *config_file)
 
 
 // 根据key查找value
-std::string krpcConfig::Load(const std::string &key)
+std::string KrpcConfig::Load(const std::string &key)
 {
     auto it = config_map.find(key);
     if (it == config_map.end()) return ""; // 未找到，返回空字符串
@@ -57,7 +57,7 @@ std::string krpcConfig::Load(const std::string &key)
 
 
 // 去掉字符串前后的空格
-void krpcConfig::Trim(std::string& read_buf)
+void KrpcConfig::Trim(std::string& read_buf)
 {
     // 去掉前面的空格
     int index = read_buf.find_first_not_of(' ');

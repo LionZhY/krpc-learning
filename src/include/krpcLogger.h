@@ -1,14 +1,14 @@
-#ifndef KRPC_LOG_H
-#define KRPC_LOG_H
+#pragma once
+
 
 #include <glog/logging.h> // Google提供的开源日志库glog的核心接口
 #include <string>
 
 // 采用RAII思想
-class krpcLogger
+class KrpcLogger
 {
 public:
-    explicit krpcLogger(const char* argv0) // 避免隐式转换，确保只能用 krpcLogger logger(argv[0]); 的形式
+    explicit KrpcLogger(const char* argv0) // 避免隐式转换，确保只能用 KrpcLogger logger(argv[0]); 的形式
     {
         google::InitGoogleLogging(argv0);   // 初始化glog
         fLB::FLAGS_colorlogtostderr = true; // 启用彩色日志
@@ -16,7 +16,7 @@ public:
     }
     // 这里体现 RAII 思想：在对象构造时自动完成资源初始化
 
-    ~krpcLogger()
+    ~KrpcLogger()
     {
         google::ShutdownGoogleLogging(); // 调用 glog 的清理方法，释放日志系统占用的资源
     }
@@ -46,9 +46,6 @@ public:
 
 private:
     // 禁用拷贝 防止 KrpcLogger 被错误地复制（确保日志系统只有一个有效实例（单例思路的一种实现））
-    krpcLogger(const krpcLogger&) = delete;
-    krpcLogger& operator = (const krpcLogger&) = delete;
+    KrpcLogger(const KrpcLogger&) = delete;
+    KrpcLogger& operator = (const KrpcLogger&) = delete;
 };
-
-
-#endif
