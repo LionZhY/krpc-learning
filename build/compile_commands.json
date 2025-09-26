@@ -6,15 +6,45 @@
   "output": "src/CMakeFiles/krpc_core.dir/krpcConfig.cc.o"
 },
 {
+  "directory": "/home/zhangyan/projects/krpc-learning/build/src",
+  "command": "/usr/bin/c++  -I/home/zhangyan/projects/krpc-learning/src/include -std=gnu++11 -std=c++11 -Wall -o CMakeFiles/krpc_core.dir/krpcController.cc.o -c /home/zhangyan/projects/krpc-learning/src/krpcController.cc",
+  "file": "/home/zhangyan/projects/krpc-learning/src/krpcController.cc",
+  "output": "src/CMakeFiles/krpc_core.dir/krpcController.cc.o"
+},
+{
+  "directory": "/home/zhangyan/projects/krpc-learning/build/src",
+  "command": "/usr/bin/c++  -I/home/zhangyan/projects/krpc-learning/src/include -std=gnu++11 -std=c++11 -Wall -o CMakeFiles/krpc_core.dir/krpcHeader.pb.cc.o -c /home/zhangyan/projects/krpc-learning/src/krpcHeader.pb.cc",
+  "file": "/home/zhangyan/projects/krpc-learning/src/krpcHeader.pb.cc",
+  "output": "src/CMakeFiles/krpc_core.dir/krpcHeader.pb.cc.o"
+},
+{
+  "directory": "/home/zhangyan/projects/krpc-learning/build/src",
+  "command": "/usr/bin/c++  -I/home/zhangyan/projects/krpc-learning/src/include -std=gnu++11 -std=c++11 -Wall -o CMakeFiles/krpc_core.dir/zookeeperutil.cc.o -c /home/zhangyan/projects/krpc-learning/src/zookeeperutil.cc",
+  "file": "/home/zhangyan/projects/krpc-learning/src/zookeeperutil.cc",
+  "output": "src/CMakeFiles/krpc_core.dir/zookeeperutil.cc.o"
+},
+{
   "directory": "/home/zhangyan/projects/krpc-learning/build/example/callee",
-  "command": "/usr/bin/c++  -I/home/zhangyan/projects/krpc-learning/src/include -std=gnu++11 -std=c++11 -Wall -o CMakeFiles/server.dir/server.cc.o -c /home/zhangyan/projects/krpc-learning/example/callee/server.cc",
+  "command": "/usr/bin/c++  -I/home/zhangyan/projects/krpc-learning/example/callee/.. -I/home/zhangyan/projects/krpc-learning/build/example/callee/.. -I/home/zhangyan/projects/krpc-learning/src/include -std=gnu++11 -std=c++11 -Wall -o CMakeFiles/server.dir/server.cc.o -c /home/zhangyan/projects/krpc-learning/example/callee/server.cc",
   "file": "/home/zhangyan/projects/krpc-learning/example/callee/server.cc",
   "output": "example/callee/CMakeFiles/server.dir/server.cc.o"
+},
+{
+  "directory": "/home/zhangyan/projects/krpc-learning/build/example/callee",
+  "command": "/usr/bin/c++  -I/home/zhangyan/projects/krpc-learning/example/callee/.. -I/home/zhangyan/projects/krpc-learning/build/example/callee/.. -I/home/zhangyan/projects/krpc-learning/src/include -std=gnu++11 -std=c++11 -Wall -o CMakeFiles/server.dir/__/user.pb.cc.o -c /home/zhangyan/projects/krpc-learning/example/user.pb.cc",
+  "file": "/home/zhangyan/projects/krpc-learning/example/user.pb.cc",
+  "output": "example/callee/CMakeFiles/server.dir/__/user.pb.cc.o"
 },
 {
   "directory": "/home/zhangyan/projects/krpc-learning/build/example/caller",
   "command": "/usr/bin/c++  -I/home/zhangyan/projects/krpc-learning/src/include -std=gnu++11 -std=c++11 -Wall -o CMakeFiles/client.dir/client.cc.o -c /home/zhangyan/projects/krpc-learning/example/caller/client.cc",
   "file": "/home/zhangyan/projects/krpc-learning/example/caller/client.cc",
   "output": "example/caller/CMakeFiles/client.dir/client.cc.o"
+},
+{
+  "directory": "/home/zhangyan/projects/krpc-learning/build/example/caller",
+  "command": "/usr/bin/c++  -I/home/zhangyan/projects/krpc-learning/src/include -std=gnu++11 -std=c++11 -Wall -o CMakeFiles/client.dir/__/user.pb.cc.o -c /home/zhangyan/projects/krpc-learning/example/user.pb.cc",
+  "file": "/home/zhangyan/projects/krpc-learning/example/user.pb.cc",
+  "output": "example/caller/CMakeFiles/client.dir/__/user.pb.cc.o"
 }
 ]

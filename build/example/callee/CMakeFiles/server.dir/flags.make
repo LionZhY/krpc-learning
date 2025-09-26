@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/zhangyan/projects/krpc-learning/src/include
+CXX_INCLUDES = -I/home/zhangyan/projects/krpc-learning/example/callee/.. -I/home/zhangyan/projects/krpc-learning/build/example/callee/.. -I/home/zhangyan/projects/krpc-learning/src/include
 
 CXX_FLAGS = -std=gnu++11 -std=c++11 -Wall
 

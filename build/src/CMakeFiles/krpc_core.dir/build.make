@@ -83,17 +83,65 @@ src/CMakeFiles/krpc_core.dir/krpcConfig.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/krpc_core.dir/krpcConfig.cc.s"
 	cd /home/zhangyan/projects/krpc-learning/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhangyan/projects/krpc-learning/src/krpcConfig.cc -o CMakeFiles/krpc_core.dir/krpcConfig.cc.s
 
+src/CMakeFiles/krpc_core.dir/krpcController.cc.o: src/CMakeFiles/krpc_core.dir/flags.make
+src/CMakeFiles/krpc_core.dir/krpcController.cc.o: /home/zhangyan/projects/krpc-learning/src/krpcController.cc
+src/CMakeFiles/krpc_core.dir/krpcController.cc.o: src/CMakeFiles/krpc_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhangyan/projects/krpc-learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/krpc_core.dir/krpcController.cc.o"
+	cd /home/zhangyan/projects/krpc-learning/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/krpc_core.dir/krpcController.cc.o -MF CMakeFiles/krpc_core.dir/krpcController.cc.o.d -o CMakeFiles/krpc_core.dir/krpcController.cc.o -c /home/zhangyan/projects/krpc-learning/src/krpcController.cc
+
+src/CMakeFiles/krpc_core.dir/krpcController.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/krpc_core.dir/krpcController.cc.i"
+	cd /home/zhangyan/projects/krpc-learning/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhangyan/projects/krpc-learning/src/krpcController.cc > CMakeFiles/krpc_core.dir/krpcController.cc.i
+
+src/CMakeFiles/krpc_core.dir/krpcController.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/krpc_core.dir/krpcController.cc.s"
+	cd /home/zhangyan/projects/krpc-learning/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhangyan/projects/krpc-learning/src/krpcController.cc -o CMakeFiles/krpc_core.dir/krpcController.cc.s
+
+src/CMakeFiles/krpc_core.dir/krpcHeader.pb.cc.o: src/CMakeFiles/krpc_core.dir/flags.make
+src/CMakeFiles/krpc_core.dir/krpcHeader.pb.cc.o: /home/zhangyan/projects/krpc-learning/src/krpcHeader.pb.cc
+src/CMakeFiles/krpc_core.dir/krpcHeader.pb.cc.o: src/CMakeFiles/krpc_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhangyan/projects/krpc-learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/krpc_core.dir/krpcHeader.pb.cc.o"
+	cd /home/zhangyan/projects/krpc-learning/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/krpc_core.dir/krpcHeader.pb.cc.o -MF CMakeFiles/krpc_core.dir/krpcHeader.pb.cc.o.d -o CMakeFiles/krpc_core.dir/krpcHeader.pb.cc.o -c /home/zhangyan/projects/krpc-learning/src/krpcHeader.pb.cc
+
+src/CMakeFiles/krpc_core.dir/krpcHeader.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/krpc_core.dir/krpcHeader.pb.cc.i"
+	cd /home/zhangyan/projects/krpc-learning/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhangyan/projects/krpc-learning/src/krpcHeader.pb.cc > CMakeFiles/krpc_core.dir/krpcHeader.pb.cc.i
+
+src/CMakeFiles/krpc_core.dir/krpcHeader.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/krpc_core.dir/krpcHeader.pb.cc.s"
+	cd /home/zhangyan/projects/krpc-learning/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhangyan/projects/krpc-learning/src/krpcHeader.pb.cc -o CMakeFiles/krpc_core.dir/krpcHeader.pb.cc.s
+
+src/CMakeFiles/krpc_core.dir/zookeeperutil.cc.o: src/CMakeFiles/krpc_core.dir/flags.make
+src/CMakeFiles/krpc_core.dir/zookeeperutil.cc.o: /home/zhangyan/projects/krpc-learning/src/zookeeperutil.cc
+src/CMakeFiles/krpc_core.dir/zookeeperutil.cc.o: src/CMakeFiles/krpc_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhangyan/projects/krpc-learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/krpc_core.dir/zookeeperutil.cc.o"
+	cd /home/zhangyan/projects/krpc-learning/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/krpc_core.dir/zookeeperutil.cc.o -MF CMakeFiles/krpc_core.dir/zookeeperutil.cc.o.d -o CMakeFiles/krpc_core.dir/zookeeperutil.cc.o -c /home/zhangyan/projects/krpc-learning/src/zookeeperutil.cc
+
+src/CMakeFiles/krpc_core.dir/zookeeperutil.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/krpc_core.dir/zookeeperutil.cc.i"
+	cd /home/zhangyan/projects/krpc-learning/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhangyan/projects/krpc-learning/src/zookeeperutil.cc > CMakeFiles/krpc_core.dir/zookeeperutil.cc.i
+
+src/CMakeFiles/krpc_core.dir/zookeeperutil.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/krpc_core.dir/zookeeperutil.cc.s"
+	cd /home/zhangyan/projects/krpc-learning/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhangyan/projects/krpc-learning/src/zookeeperutil.cc -o CMakeFiles/krpc_core.dir/zookeeperutil.cc.s
+
 # Object files for target krpc_core
 krpc_core_OBJECTS = \
-"CMakeFiles/krpc_core.dir/krpcConfig.cc.o"
+"CMakeFiles/krpc_core.dir/krpcConfig.cc.o" \
+"CMakeFiles/krpc_core.dir/krpcController.cc.o" \
+"CMakeFiles/krpc_core.dir/krpcHeader.pb.cc.o" \
+"CMakeFiles/krpc_core.dir/zookeeperutil.cc.o"
 
 # External object files for target krpc_core
 krpc_core_EXTERNAL_OBJECTS =
 
 src/libkrpc_core.a: src/CMakeFiles/krpc_core.dir/krpcConfig.cc.o
+src/libkrpc_core.a: src/CMakeFiles/krpc_core.dir/krpcController.cc.o
+src/libkrpc_core.a: src/CMakeFiles/krpc_core.dir/krpcHeader.pb.cc.o
+src/libkrpc_core.a: src/CMakeFiles/krpc_core.dir/zookeeperutil.cc.o
 src/libkrpc_core.a: src/CMakeFiles/krpc_core.dir/build.make
 src/libkrpc_core.a: src/CMakeFiles/krpc_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhangyan/projects/krpc-learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libkrpc_core.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhangyan/projects/krpc-learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libkrpc_core.a"
 	cd /home/zhangyan/projects/krpc-learning/build/src && $(CMAKE_COMMAND) -P CMakeFiles/krpc_core.dir/cmake_clean_target.cmake
 	cd /home/zhangyan/projects/krpc-learning/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/krpc_core.dir/link.txt --verbose=$(VERBOSE)
 

@@ -1,1 +1,1 @@
-/usr/bin/c++ -rdynamic CMakeFiles/client.dir/client.cc.o -o /home/zhangyan/projects/krpc-learning/bin/client  ../../src/libkrpc_core.a -lprotobuf -lpthread -lzookeeper_mt -lmuduo_net -lmuduo_base -lglog 
+/usr/bin/c++ -rdynamic CMakeFiles/client.dir/client.cc.o CMakeFiles/client.dir/__/user.pb.cc.o -o /home/zhangyan/projects/krpc-learning/bin/client  ../../src/libkrpc_core.a -lprotobuf -lpthread -lzookeeper_mt -lmuduo_net -lmuduo_base -lglog 

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "/home/zhangyan/projects/krpc-learning/bin/client"
   "/home/zhangyan/projects/krpc-learning/bin/client.pdb"
+  "CMakeFiles/client.dir/__/user.pb.cc.o"
+  "CMakeFiles/client.dir/__/user.pb.cc.o.d"
   "CMakeFiles/client.dir/client.cc.o"
   "CMakeFiles/client.dir/client.cc.o.d"
 )

@@ -15,6 +15,7 @@ file(GLOB PROTO_SRCS ${CMAKE_CURRENT_SOURCE_DIR}/*.pb.cc)
 #创建静态库或共享库
 add_library(krpc_core STATIC ${SRC_FILES} ${PROTO_SRCS})
 
+
 #链接protobuf库
 target_link_libraries(krpc_core PUBLIC protobuf)
 

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/zhangyan/projects/krpc-learning/example/user.pb.cc" "example/caller/CMakeFiles/client.dir/__/user.pb.cc.o" "gcc" "example/caller/CMakeFiles/client.dir/__/user.pb.cc.o.d"
   "/home/zhangyan/projects/krpc-learning/example/caller/client.cc" "example/caller/CMakeFiles/client.dir/client.cc.o" "gcc" "example/caller/CMakeFiles/client.dir/client.cc.o.d"
   )
 

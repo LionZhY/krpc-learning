@@ -9,6 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/zhangyan/projects/krpc-learning/src/krpcConfig.cc" "src/CMakeFiles/krpc_core.dir/krpcConfig.cc.o" "gcc" "src/CMakeFiles/krpc_core.dir/krpcConfig.cc.o.d"
+  "/home/zhangyan/projects/krpc-learning/src/krpcController.cc" "src/CMakeFiles/krpc_core.dir/krpcController.cc.o" "gcc" "src/CMakeFiles/krpc_core.dir/krpcController.cc.o.d"
+  "/home/zhangyan/projects/krpc-learning/src/krpcHeader.pb.cc" "src/CMakeFiles/krpc_core.dir/krpcHeader.pb.cc.o" "gcc" "src/CMakeFiles/krpc_core.dir/krpcHeader.pb.cc.o.d"
+  "/home/zhangyan/projects/krpc-learning/src/zookeeperutil.cc" "src/CMakeFiles/krpc_core.dir/zookeeperutil.cc.o" "gcc" "src/CMakeFiles/krpc_core.dir/zookeeperutil.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

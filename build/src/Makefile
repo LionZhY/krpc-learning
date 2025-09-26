@@ -154,6 +154,78 @@ krpcConfig.cc.s:
 	cd /home/zhangyan/projects/krpc-learning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/krpc_core.dir/build.make src/CMakeFiles/krpc_core.dir/krpcConfig.cc.s
 .PHONY : krpcConfig.cc.s
 
+krpcController.o: krpcController.cc.o
+.PHONY : krpcController.o
+
+# target to build an object file
+krpcController.cc.o:
+	cd /home/zhangyan/projects/krpc-learning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/krpc_core.dir/build.make src/CMakeFiles/krpc_core.dir/krpcController.cc.o
+.PHONY : krpcController.cc.o
+
+krpcController.i: krpcController.cc.i
+.PHONY : krpcController.i
+
+# target to preprocess a source file
+krpcController.cc.i:
+	cd /home/zhangyan/projects/krpc-learning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/krpc_core.dir/build.make src/CMakeFiles/krpc_core.dir/krpcController.cc.i
+.PHONY : krpcController.cc.i
+
+krpcController.s: krpcController.cc.s
+.PHONY : krpcController.s
+
+# target to generate assembly for a file
+krpcController.cc.s:
+	cd /home/zhangyan/projects/krpc-learning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/krpc_core.dir/build.make src/CMakeFiles/krpc_core.dir/krpcController.cc.s
+.PHONY : krpcController.cc.s
+
+krpcHeader.pb.o: krpcHeader.pb.cc.o
+.PHONY : krpcHeader.pb.o
+
+# target to build an object file
+krpcHeader.pb.cc.o:
+	cd /home/zhangyan/projects/krpc-learning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/krpc_core.dir/build.make src/CMakeFiles/krpc_core.dir/krpcHeader.pb.cc.o
+.PHONY : krpcHeader.pb.cc.o
+
+krpcHeader.pb.i: krpcHeader.pb.cc.i
+.PHONY : krpcHeader.pb.i
+
+# target to preprocess a source file
+krpcHeader.pb.cc.i:
+	cd /home/zhangyan/projects/krpc-learning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/krpc_core.dir/build.make src/CMakeFiles/krpc_core.dir/krpcHeader.pb.cc.i
+.PHONY : krpcHeader.pb.cc.i
+
+krpcHeader.pb.s: krpcHeader.pb.cc.s
+.PHONY : krpcHeader.pb.s
+
+# target to generate assembly for a file
+krpcHeader.pb.cc.s:
+	cd /home/zhangyan/projects/krpc-learning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/krpc_core.dir/build.make src/CMakeFiles/krpc_core.dir/krpcHeader.pb.cc.s
+.PHONY : krpcHeader.pb.cc.s
+
+zookeeperutil.o: zookeeperutil.cc.o
+.PHONY : zookeeperutil.o
+
+# target to build an object file
+zookeeperutil.cc.o:
+	cd /home/zhangyan/projects/krpc-learning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/krpc_core.dir/build.make src/CMakeFiles/krpc_core.dir/zookeeperutil.cc.o
+.PHONY : zookeeperutil.cc.o
+
+zookeeperutil.i: zookeeperutil.cc.i
+.PHONY : zookeeperutil.i
+
+# target to preprocess a source file
+zookeeperutil.cc.i:
+	cd /home/zhangyan/projects/krpc-learning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/krpc_core.dir/build.make src/CMakeFiles/krpc_core.dir/zookeeperutil.cc.i
+.PHONY : zookeeperutil.cc.i
+
+zookeeperutil.s: zookeeperutil.cc.s
+.PHONY : zookeeperutil.s
+
+# target to generate assembly for a file
+zookeeperutil.cc.s:
+	cd /home/zhangyan/projects/krpc-learning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/krpc_core.dir/build.make src/CMakeFiles/krpc_core.dir/zookeeperutil.cc.s
+.PHONY : zookeeperutil.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -166,6 +238,15 @@ help:
 	@echo "... krpcConfig.o"
 	@echo "... krpcConfig.i"
 	@echo "... krpcConfig.s"
+	@echo "... krpcController.o"
+	@echo "... krpcController.i"
+	@echo "... krpcController.s"
+	@echo "... krpcHeader.pb.o"
+	@echo "... krpcHeader.pb.i"
+	@echo "... krpcHeader.pb.s"
+	@echo "... zookeeperutil.o"
+	@echo "... zookeeperutil.i"
+	@echo "... zookeeperutil.s"
 .PHONY : help
 
 

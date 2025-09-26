@@ -1,2 +1,2 @@
-/usr/bin/ar qc libkrpc_core.a CMakeFiles/krpc_core.dir/krpcConfig.cc.o
+/usr/bin/ar qc libkrpc_core.a CMakeFiles/krpc_core.dir/krpcConfig.cc.o CMakeFiles/krpc_core.dir/krpcController.cc.o CMakeFiles/krpc_core.dir/krpcHeader.pb.cc.o CMakeFiles/krpc_core.dir/zookeeperutil.cc.o
 /usr/bin/ranlib libkrpc_core.a
