@@ -1,29 +1,35 @@
-#ifndef ZOOKEEPERUTIL_H
-#define ZOOKEEPERUTIL_H
+#pragma once
 
 #include <semaphore.h>
 #include <zookeeper/zookeeper.h>
 #include <string>
 
-// 封装的zk客户端
+/*
+zkclient 是 Zookeeper 客户端的封装类，负责：
+    - 启动并连接Zookeeper服务
+    - 创建Zookeeper的节点 znode
+    - 读取节点数据
+*/
+
+
 class ZkClient
 {
 public:
     ZkClient();
     ~ZkClient();
 
-    // zkclient 启动连接 zksever
+    // zkclient 启动并连接 Zookeeper 服务器 zkserver
     void Start();
 
-    // 在 zkserver 中创建一个节点，根据指定的path
-    void Create(const char* path, const char* data, int datalen, int state = 0);
+    // 在 zkserver 中根据指定的 path 创建 znode 节点
+    void Create(const char* path,   // 节点路径，如 "/service/node1"
+                const char* data,   // 节点保存的数据
+                int datalen,        // 数据长度
+                int state = 0);     // 节点类型，默认是0（持久节点），也可指定临时节点
 
-    // 根据参数指定的znode节点路径，或者znode节点
+    // 获取指定路径节点的数据
     std::string GetData(const char* path);
 
 private:
-    zhandle_t* m_zhandle; // zk的客户端句柄
+    zhandle_t* m_zhandle; // zk 的客户端会话句柄
 };
-
-
-#endif

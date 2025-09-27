@@ -11,9 +11,13 @@
 class KrpcApplication
 {
 public:
+
     static void Init(int args, char** argv);
+
     static KrpcApplication& GetInstance();
+    
     static void deleteInstance();
+    
     static KrpcConfig& GetConfig();
 
 private:
