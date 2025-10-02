@@ -1,6 +1,6 @@
 #pragma once
 
-#include <semaphore.h>
+#include <semaphore.h> // 提供信号量相关接口
 #include <zookeeper/zookeeper.h>
 #include <string>
 
@@ -31,5 +31,5 @@ public:
     std::string GetData(const char* path);
 
 private:
-    zhandle_t* m_zhandle; // zk 的客户端会话句柄
+    zhandle_t* m_zhandle; // zk 的客户端会话句柄，ZkClient 用 zhandle_t* 管理 ZooKeeper 会话
 };

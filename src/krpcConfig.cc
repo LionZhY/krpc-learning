@@ -2,7 +2,7 @@
 #include <memory>
 
 
-// 加载配置文件，解析配置文件中的键值对，存入config_map
+// 加载配置文件，解析配置文件中的键值对，存入 config_map
 void KrpcConfig::LoadConfigFile(const char *config_file)
 {
     // 使用智能指针管理文件指针，确保文件在退出时自动关闭
