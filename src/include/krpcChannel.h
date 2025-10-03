@@ -4,8 +4,6 @@
 #include "zookeeperutil.h"
 
 
-
-
 // 客户端调用远程服务时，stub（代理类）会将请求传给 rpcChannel 的 CallMehod()，由其进行实际的发送
 // 因此你只要实现 CallMethod()，就能实现完整的RPC客户端调用
 
